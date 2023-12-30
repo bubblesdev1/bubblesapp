@@ -19,11 +19,11 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
 
-  // This widget is the root of your application.
+  // Root of the bubbles app
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'eCommerce int2',
+      title: 'Bubbles App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.light,
